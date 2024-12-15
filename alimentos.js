@@ -250,7 +250,7 @@ async function Chutar() {
         const tempo = fim - inicio;
         tempos.push(tempo);
 
-        tempoDiv.innerText = `${tempo.toFixed(500)}ms`;
+        tempoDiv.innerText = `${tempo.toFixed(50)}ms`;
     }
 }
 
@@ -305,7 +305,7 @@ async function ChutarPerto() {
                 const tempo = fim - inicio;
                 tempos.push(tempo);
 
-                tempoDiv.innerText = `${tempo.toFixed(500)}ms`;
+                tempoDiv.innerText = `${tempo.toFixed(50)}ms`;
             }
         }
 
@@ -349,7 +349,7 @@ async function ChutarPerto() {
             const tempo = fim - inicio;
             tempos.push(tempo);
 
-            tempoDiv.innerText = `${tempo.toFixed(500)}ms`;
+            tempoDiv.innerText = `${tempo.toFixed(50)}ms`;
         }
     }
 }
@@ -399,7 +399,7 @@ async function ChutarDicaPendente(respValidas, indiceInicial) {
         const tempo = fim - inicio;
         tempos.push(tempo);
 
-        tempoDiv.innerText = `${tempo.toFixed(500)}ms`;
+        tempoDiv.innerText = `${tempo.toFixed(50)}ms`;
     }
 
     indiceAtual = 0;
@@ -501,7 +501,7 @@ async function ChutarDica() {
         const tempo = fim - inicio;
         tempos.push(tempo);
 
-        tempoDiv.innerText = `${tempo.toFixed(500)}ms`;
+        tempoDiv.innerText = `${tempo.toFixed(50)}ms`;
     }
 
     if (indiceFinal < respValidas.length) {
